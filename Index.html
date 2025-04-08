@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>WM-Images Gallery</title>
   <style>
     body {
-      margin: 0;
-      background: #000;
-    }
-    iframe {
-      width: 100vw;
+      background-color: #111;
+      color: #fff;
+      font-family: sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       height: 100vh;
-      border: none;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #1e90ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #0077cc;
     }
   </style>
 </head>
 <body>
-  <iframe src="https://script.google.com/macros/s/AKfycbwVnVQfA2wqa8K_iZqvmRNQnI6FsVAIijHESlo59MoxsE2ukpBIXXB-Q0vHP_ju5W_S/exec"></iframe>
+  <h1>Welcome to the WM-Images Gallery</h1>
+  <a href="https://script.google.com/macros/s/AKfycbwVnVQfA2wqa8K_iZqvmRNQnI6FsVAIijHESlo59MoxsE2ukpBIXXB-Q0vHP_ju5W_S/exec" class="button" target="_blank">
+    Open Gallery
+  </a>
 </body>
 </html>
